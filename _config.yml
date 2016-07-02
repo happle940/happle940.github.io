@@ -1,2 +1,13 @@
-﻿encoding: utf-8
-baseurl : 
+﻿# Site settings
+title: Je pense, donc je suis
+header-img: "img/green.jpg"
+tagline: "cn"  
+description: "HApple"  
+baseurl: ""
+url: "http://happlecn.com"  
+
+# About/contact
+owner: 
+  name: " HApple"
+  email: happle1014@gmail.com
+  bio: "Veritas"

@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="HApple">
 
-    <title>my first post - Je pense, donc je suis</title>
+    <title>Je pense, donc je suis</title>
 
-    <link rel="canonical" href="http://happlecn.com/2016/06/30/test.html">
+    <link rel="canonical" href="http://happlecn.com/Interview.html">
 
     <!-- Icons -->
   <link rel="shortcut icon" href="img/favicon.ico">
@@ -74,9 +74,71 @@
 </nav>
 
 
-    <h1>my first post</h1>
-<p>This is my first post.Click the link below to go back to index:</p>
-<a href="/index.html">Go back</a>
+    <!-- Page Header -->
+<header class="intro-header" style="background-image: url('/img/birds.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>Je pense, donc je suis</h1>
+                    <hr class="small">
+                    <span class="subheading">读立写生</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<link rel="stylesheet" href="/css/backtop.css">  <!-- Back Top -->
+<script type="text/javascript" src="/js/backtop.js"></script>  <!-- Back Top -->
+
+<div id="back-top">
+  <a href="#top" title="回到顶部"></a>
+</div>
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			<!DOCTYPE html>
+<html>
+<head>
+<script src="http://simplewebrtc.com/latest.js"></script>
+
+<style>
+  #remoteVideos video {
+      height: 500px;
+  }
+  #localVideo {
+      height: 500px;
+  }
+</style>
+</head>
+<body>
+
+<video id="localVideo"></video>
+<div id="remoteVideos"></div>
+
+<script>
+var webrtc = new SimpleWebRTC({
+        localVideoEl: 'localVideo',
+        remoteVideosEl: 'remoteVideos',
+        autoRequestMedia: true
+});
+
+webrtc.on('readyToCall', function () {
+        webrtc.joinRoom('rendezvous');
+});
+</script>
+</body>
+</html>
+
+		</div>
+	</div>
+</div>
+
+<hr>
+
 
     <!-- Footer -->
 <footer>
