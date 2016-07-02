@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# Site settings
 title: Je pense, donc je suis
 header-img: "img/green.jpg"
@@ -11,3 +12,7 @@ owner:
   name: " HApple"
   email: happle1014@gmail.com
   bio: "Veritas"
+=======
+encoding: utf-8
+baseurl:
+>>>>>>> origin/master
